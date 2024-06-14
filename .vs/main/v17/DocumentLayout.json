@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|c:\\users\\hp\\source\\repos\\main\\main\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|c:\\users\\hp\\source\\repos\\main\\main\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|c:\\users\\hp\\source\\repos\\main\\main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|c:\\users\\hp\\source\\repos\\main\\main\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|C:\\Users\\HP\\source\\repos\\main\\main\\themecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\themecolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\main\\main\\Program.cs",
+              "RelativeDocumentMoniker": "main\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\main\\main\\Program.cs",
+              "RelativeToolTip": "main\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:58:30.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\main\\main\\FormLogin.cs",
+              "RelativeDocumentMoniker": "main\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\main\\main\\FormLogin.cs",
+              "RelativeToolTip": "main\\FormLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:12:28.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\main\\main\\FormLogin.cs",
+              "RelativeDocumentMoniker": "main\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\main\\main\\FormLogin.cs [Design]",
+              "RelativeToolTip": "main\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:05:58.615Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Themecolor.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\main\\main\\Themecolor.cs",
+              "RelativeDocumentMoniker": "main\\Themecolor.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\main\\main\\Themecolor.cs",
+              "RelativeToolTip": "main\\Themecolor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T03:39:56.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\main\\main\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "main\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\HP\\source\\repos\\main\\main\\FormLogin.Designer.cs",
+              "RelativeToolTip": "main\\FormLogin.Designer.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAiwHQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T01:46:16.246Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

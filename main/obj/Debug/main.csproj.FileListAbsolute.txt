@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\main\main\bin\Debug\main.exe.config
+C:\Users\HP\source\repos\main\main\bin\Debug\main.exe
+C:\Users\HP\source\repos\main\main\bin\Debug\main.pdb
+C:\Users\HP\source\repos\main\main\obj\Debug\main.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\main\main\obj\Debug\main.Properties.Resources.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\main\main\obj\Debug\main.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\main\main\obj\Debug\main.exe
+C:\Users\HP\source\repos\main\main\obj\Debug\main.pdb
+C:\Users\HP\source\repos\main\main\obj\Debug\main.Formmenu.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.FormLogin.resources
