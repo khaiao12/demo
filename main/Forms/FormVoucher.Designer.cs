@@ -1,6 +1,6 @@
 ﻿namespace main
 {
-    partial class Formsetting
+    partial class FormVoucher
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FormVoucher
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Formsetting";
+            this.Name = "FormVoucher";
+            this.Text = "Voucher";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

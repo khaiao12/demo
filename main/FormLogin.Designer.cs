@@ -149,6 +149,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(419, 487);
+            this.ControlBox = false;
             this.Controls.Add(this.lblClear);
             this.Controls.Add(this.lblExit);
             this.Controls.Add(this.panelPass);
@@ -176,9 +177,7 @@
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelUser;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panelPass;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lblExit;
         private System.Windows.Forms.Label lblClear;
     }

@@ -15,6 +15,7 @@ namespace main
         private Button currentButton;
         private Random random;
         private int tempIndex;
+        private Form activeForm;
         public Formmenu()
         {
             InitializeComponent();
@@ -43,7 +44,7 @@ namespace main
                     currentButton = (Button)btnsender;
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
-                    currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                    currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     panelTitle.BackColor = color;
                     panelLogo.BackColor = Themecolor.ChangeColorBrightness(color, -0.3);
                 }
@@ -58,42 +59,64 @@ namespace main
                 {
                     previousBtn.BackColor = Color.FromArgb(51, 51, 76);
                     previousBtn.ForeColor = Color.Gainsboro;
-                    previousBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                    previousBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 }
 
             }
 
         }
 
+        private void OpenChildForm(Form Childform, object btnsender)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            ActivateButton(btnsender);
+            activeForm = Childform;
+            Childform.TopLevel = false;
+            Childform.FormBorderStyle = FormBorderStyle.None;
+            Childform.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(Childform);
+            this.panelDesktop.Tag = Childform;
+            Childform.BringToFront();
+            Childform.Show();
+            lblTitle.Text = Childform.Text;
+        }
+
         private void btnProduct_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new FormProduct(), sender);
         }
 
         private void btnCustomer_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new FormCustomer(), sender);
         }
 
         private void btnVoucher_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new FormVoucher(), sender);
         }
 
         private void btnStore_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new FormStore(), sender);
         }
 
         private void btnDiamond_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new FormDiamond(), sender);
         }
 
         private void btnSetting_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new FormSetting(), sender);
         }
 
+        private void btnPower_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

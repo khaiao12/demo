@@ -9,3 +9,9 @@ C:\Users\HP\source\repos\main\main\obj\Debug\main.exe
 C:\Users\HP\source\repos\main\main\obj\Debug\main.pdb
 C:\Users\HP\source\repos\main\main\obj\Debug\main.Formmenu.resources
 C:\Users\HP\source\repos\main\main\obj\Debug\main.FormLogin.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.FormProduct.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.FormCustomer.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.FormDiamond.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.FormSetting.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.FormStore.resources
+C:\Users\HP\source\repos\main\main\obj\Debug\main.FormVoucher.resources

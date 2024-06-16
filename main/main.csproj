@@ -46,11 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormCustomer.cs">
+    <Compile Include="Forms\FormCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCustomer.Designer.cs">
+    <Compile Include="Forms\FormCustomer.Designer.cs">
       <DependentUpon>FormCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormDiamond.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDiamond.Designer.cs">
+      <DependentUpon>FormDiamond.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -64,32 +70,56 @@
     <Compile Include="Formmenu.Designer.cs">
       <DependentUpon>Formmenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormProduct.cs">
+    <Compile Include="Forms\FormProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormProduct.Designer.cs">
+    <Compile Include="Forms\FormProduct.Designer.cs">
       <DependentUpon>FormProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formsetting.cs">
+    <Compile Include="Forms\Formsetting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formsetting.Designer.cs">
+    <Compile Include="Forms\Formsetting.Designer.cs">
       <DependentUpon>Formsetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormVoucher.cs">
+    <Compile Include="Forms\FormStore.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormVoucher.Designer.cs">
+    <Compile Include="Forms\FormStore.Designer.cs">
+      <DependentUpon>FormStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormVoucher.Designer.cs">
       <DependentUpon>FormVoucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Themecolor.cs" />
+    <EmbeddedResource Include="Forms\FormCustomer.resx">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDiamond.resx">
+      <DependentUpon>FormDiamond.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formmenu.resx">
       <DependentUpon>Formmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProduct.resx">
+      <DependentUpon>FormProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Formsetting.resx">
+      <DependentUpon>Formsetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormStore.resx">
+      <DependentUpon>FormStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormVoucher.resx">
+      <DependentUpon>FormVoucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -167,6 +197,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\th %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\power.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
