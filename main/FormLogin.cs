@@ -12,6 +12,8 @@ namespace main
 {
     public partial class FormLogin : Form
     {
+        List<TaiKhoan> listTaiKhoan = DanhSach.Instance.ListTaiKhoan;
+        public static string TK;
         public FormLogin()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace main
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "Demo" && txtPassword.Text == "4321")
+            if (loginCheck(txtUsername.Text, txtPassword.Text))
             {
                 new Formmenu().Show();
                 this.Hide();
@@ -31,6 +33,20 @@ namespace main
                 txtPassword.Clear();
                 txtUsername.Focus();
             }
+            
+        }
+
+        bool loginCheck(string username, string password) 
+        {
+            for (int i = 0; i < listTaiKhoan.Count; i++)
+            {
+                if (txtUsername.Text == listTaiKhoan[i].UserName && txtPassword.Text == listTaiKhoan[i].Password)
+                {
+                    TK = listTaiKhoan [i].UserName;
+                    return true;
+                }
+            }
+            return false;
         }
 
         private void lblClear_Click(object sender, EventArgs e)
@@ -44,5 +60,6 @@ namespace main
         {
             Application.Exit();
         }
+
     }
 }

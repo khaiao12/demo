@@ -12,9 +12,23 @@ namespace main
 {
     public partial class FormCustomer : Form
     {
+        List<TaiKhoan> listTK = DanhSach.Instance.ListTaiKhoan;
+        
         public FormCustomer()
         {
             InitializeComponent();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < listTK.Count; i++)
+            {
+                if(FormLogin.TK == listTK[i].UserName)
+                {
+                    lblMoney.Text = "" + listTK[i].Cash;
+                    lblACC.Text = "@" + listTK[i].UserName;
+                }
+            }
         }
     }
 }

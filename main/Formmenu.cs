@@ -44,7 +44,7 @@ namespace main
                     currentButton = (Button)btnsender;
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
-                    currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                    currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     panelTitle.BackColor = color;
                     panelLogo.BackColor = Themecolor.ChangeColorBrightness(color, -0.3);
                 }
@@ -99,11 +99,6 @@ namespace main
             OpenChildForm(new FormVoucher(), sender);
         }
 
-        private void btnStore_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new FormStore(), sender);
-        }
-
         private void btnDiamond_Click(object sender, EventArgs e)
         {
             OpenChildForm(new FormDiamond(), sender);
@@ -117,6 +112,24 @@ namespace main
         private void btnPower_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void reset()
+        {
+            DisableButton();
+            lblTitle.Text = "HOME";
+            panelTitle.BackColor = Color.DodgerBlue;
+            panelLogo.BackColor = Color.FromArgb(39, 39, 58);
+            currentButton = null;
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            reset();
         }
     }
 }

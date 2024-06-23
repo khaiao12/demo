@@ -63,6 +63,26 @@ namespace main.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap arr {
+            get {
+                object obj = ResourceManager.GetObject("arr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap arr1 {
+            get {
+                object obj = ResourceManager.GetObject("arr1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cart {
             get {
                 object obj = ResourceManager.GetObject("cart", resourceCulture);
@@ -103,9 +123,79 @@ namespace main.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cus1 {
+            get {
+                object obj = ResourceManager.GetObject("cus1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ddd {
             get {
                 object obj = ResourceManager.GetObject("ddd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gbddddh000015_bong_tai_kim_cuong_vang_18k_pnj_01 {
+            get {
+                object obj = ResourceManager.GetObject("gbddddh000015-bong-tai-kim-cuong-vang-18k-pnj-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gbddddw000220_bong_tai_kim_cuong_vang_trang_14k_pnj {
+            get {
+                object obj = ResourceManager.GetObject("gbddddw000220-bong-tai-kim-cuong-vang-trang-14k-pnj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gbddddw060155_bong_tai_kim_cuong_vang_trang_18k_pnj_hinh_giot_nuoc_1 {
+            get {
+                object obj = ResourceManager.GetObject("gbddddw060155-bong-tai-kim-cuong-vang-trang-18k-pnj-hinh-giot-nuoc-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gbdrwa72039_5a2_bong_tai_kim_cuong_pnj_vang_trang_14k {
+            get {
+                object obj = ResourceManager.GetObject("gbdrwa72039.5a2-bong-tai-kim-cuong-pnj-vang-trang-14k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gbdrwa77666_5a0_bong_tai_kim_cuong_pnj_vang_trang_14k {
+            get {
+                object obj = ResourceManager.GetObject("gbdrwa77666.5a0-bong-tai-kim-cuong-pnj-vang-trang-14k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gbdrwa83478_5a1_bong_tai_kim_cuong_pnj_vang_trang_14k_01 {
+            get {
+                object obj = ResourceManager.GetObject("gbdrwa83478.5a1-bong-tai-kim-cuong-pnj-vang-trang-14k-01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +213,229 @@ namespace main.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap gmdd00w000136_mat_day_chuyen_kim_cuong_vang_trang_14k_pnj_1 {
+            get {
+                object obj = ResourceManager.GetObject("gmdd00w000136-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gmddddc000039_mat_day_chuyen_vang_14k_dinh_kim_cuong_pnj_01 {
+            get {
+                object obj = ResourceManager.GetObject("gmddddc000039-mat-day-chuyen-vang-14k-dinh-kim-cuong-pnj-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gmddddh000014_mat_day_chuyen_kim_cuong_nau_vang_18k_pnj_hinh_trai_tim_4 {
+            get {
+                object obj = ResourceManager.GetObject("gmddddh000014-mat-day-chuyen-kim-cuong-nau-vang-18k-pnj-hinh-trai-tim-4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gmddddh000046_mat_day_chuyen_kim_cuong_vang_14k_pnj_01 {
+            get {
+                object obj = ResourceManager.GetObject("gmddddh000046-mat-day-chuyen-kim-cuong-vang-14k-pnj-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gmddddw001101_mat_day_chuyen_kim_cuong_vang_trang_14k_pnj__1_ {
+            get {
+                object obj = ResourceManager.GetObject("gmddddw001101-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gmddddw060124_mat_day_chuyen_kim_cuong_vang_trang_18k_pnj {
+            get {
+                object obj = ResourceManager.GetObject("gmddddw060124-mat-day-chuyen-kim-cuong-vang-trang-18k-pnj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gndrwa46447_501_nhan_kim_cuong_pnj_vang_trang_14k {
+            get {
+                object obj = ResourceManager.GetObject("gndrwa46447.501-nhan-kim-cuong-pnj-vang-trang-14k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gndrwa60919_501_nhan_kim_cuong_pnj_vang_trang {
+            get {
+                object obj = ResourceManager.GetObject("gndrwa60919.501-nhan-kim-cuong-pnj-vang-trang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gndrwa63880_500_nhan_kim_cuong_pnj_vang_trang {
+            get {
+                object obj = ResourceManager.GetObject("gndrwa63880.500-nhan-kim-cuong-pnj-vang-trang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gndrwa81442_518_nhan_kim_cuong_pnj_vang_trang_14k {
+            get {
+                object obj = ResourceManager.GetObject("gndrwa81442.518-nhan-kim-cuong-pnj-vang-trang-14k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gv00ddw000227_vo_vong_tay_kim_cuong_vang_trang_18k_pnj_01 {
+            get {
+                object obj = ResourceManager.GetObject("gv00ddw000227-vo-vong-tay-kim-cuong-vang-trang-18k-pnj-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gvddddc000001_vong_tay_kim_cuong_vang_18k_pnj_01 {
+            get {
+                object obj = ResourceManager.GetObject("gvddddc000001-vong-tay-kim-cuong-vang-18k-pnj-01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gvddddw060048_nhan_kim_cuong_vang_trang_14k_pnj_1 {
+            get {
+                object obj = ResourceManager.GetObject("gvddddw060048-nhan-kim-cuong-vang-trang-14k-pnj-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gvdrwa77482_514_vong_tay_kim_cuong_pnj_vang_trang_14k {
+            get {
+                object obj = ResourceManager.GetObject("gvdrwa77482.514-vong-tay-kim-cuong-pnj-vang-trang-14k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gvdrwa89488_5a1_vong_tay_kim_cuong_pnj_vang_trang_14k {
+            get {
+                object obj = ResourceManager.GetObject("gvdrwa89488.5a1-vong-tay-kim-cuong-pnj-vang-trang-14k", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home {
+            get {
+                object obj = ResourceManager.GetObject("home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kiệt_Tác_địa_chỉ_độ_kim_cương_cho_đồng_hồ_nữ_cực_uy_tín__chuyên_nghiệp_hiện_nay {
+            get {
+                object obj = ResourceManager.GetObject("Kiệt Tác_địa chỉ độ kim cương cho đồng hồ nữ cực uy tín, chuyên nghiệp hiện nay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap power {
             get {
                 object obj = ResourceManager.GetObject("power", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap product_che_tac_gan_full_kim_cuong_dong_ho_santos_de_cartier_164048100622 {
+            get {
+                object obj = ResourceManager.GetObject("product_che-tac-gan-full-kim-cuong-dong-ho-santos-de-cartier-164048100622", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap product_section_franck_muller_163231060422 {
+            get {
+                object obj = ResourceManager.GetObject("product_section_franck-muller-163231060422", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap service_dich_vu_dinh_kim_cuong_dong_ho_cartier_085601130722 {
+            get {
+                object obj = ResourceManager.GetObject("service_dich-vu-dinh-kim-cuong-dong-ho-cartier-085601130722", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap service_dich_vu_dinh_kim_cuong_dong_ho_citizen_084449290722 {
+            get {
+                object obj = ResourceManager.GetObject("service_dich-vu-dinh-kim-cuong-dong-ho-citizen-084449290722", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap service_dich_vu_dinh_kim_cuong_dong_ho_nam_093614100722 {
+            get {
+                object obj = ResourceManager.GetObject("service_dich-vu-dinh-kim-cuong-dong-ho-nam-093614100722", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,6 +493,16 @@ namespace main.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap th {
+            get {
+                object obj = ResourceManager.GetObject("th", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap th__1_ {
             get {
                 object obj = ResourceManager.GetObject("th (1)", resourceCulture);
@@ -213,6 +533,36 @@ namespace main.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap th__3_ {
+            get {
+                object obj = ResourceManager.GetObject("th (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap th__4_ {
+            get {
+                object obj = ResourceManager.GetObject("th (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap th__5_ {
+            get {
+                object obj = ResourceManager.GetObject("th (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Untitled {
             get {
                 object obj = ResourceManager.GetObject("Untitled", resourceCulture);
@@ -226,6 +576,16 @@ namespace main.Properties {
         internal static System.Drawing.Bitmap Untitled1 {
             get {
                 object obj = ResourceManager.GetObject("Untitled1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vongtay {
+            get {
+                object obj = ResourceManager.GetObject("vongtay", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

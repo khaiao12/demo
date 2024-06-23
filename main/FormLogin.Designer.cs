@@ -86,7 +86,7 @@
             this.btnLogin.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(136, 358);
+            this.btnLogin.Location = new System.Drawing.Point(122, 358);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(159, 49);
             this.btnLogin.TabIndex = 4;
@@ -122,12 +122,11 @@
             // 
             // lblExit
             // 
-            this.lblExit.AutoSize = true;
             this.lblExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblExit.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblExit.Location = new System.Drawing.Point(199, 434);
+            this.lblExit.Location = new System.Drawing.Point(183, 427);
             this.lblExit.Name = "lblExit";
-            this.lblExit.Size = new System.Drawing.Size(36, 18);
+            this.lblExit.Size = new System.Drawing.Size(50, 62);
             this.lblExit.TabIndex = 9;
             this.lblExit.Text = "Exit";
             this.lblExit.Click += new System.EventHandler(this.lblExit_Click);
@@ -148,7 +147,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 487);
+            this.ClientSize = new System.Drawing.Size(427, 498);
             this.ControlBox = false;
             this.Controls.Add(this.lblClear);
             this.Controls.Add(this.lblExit);
@@ -160,6 +159,7 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "FormLogin";
             this.Text = "FormLogin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

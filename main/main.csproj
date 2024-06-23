@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\FormAccept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAccept.Designer.cs">
+      <DependentUpon>FormAccept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBracelet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBracelet.Designer.cs">
+      <DependentUpon>FormBracelet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +82,35 @@
     <Compile Include="Formmenu.Designer.cs">
       <DependentUpon>Formmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormEarrings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEarrings.Designer.cs">
+      <DependentUpon>FormEarrings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNecklace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNecklace.Designer.cs">
+      <DependentUpon>FormNecklace.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormProduct.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormProduct.Designer.cs">
       <DependentUpon>FormProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormProInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormProInfor.Designer.cs">
+      <DependentUpon>FormProInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormRing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormRing.Designer.cs">
+      <DependentUpon>FormRing.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Formsetting.cs">
       <SubType>Form</SubType>
@@ -82,21 +118,31 @@
     <Compile Include="Forms\Formsetting.Designer.cs">
       <DependentUpon>Formsetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FormStore.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\FormStore.Designer.cs">
-      <DependentUpon>FormStore.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\FormVoucher.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormVoucher.Designer.cs">
       <DependentUpon>FormVoucher.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormWatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWatch.Designer.cs">
+      <DependentUpon>FormWatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SanPham\DanhSachSanPham.cs" />
+    <Compile Include="SanPham\SanPham.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaiKhoan\DanhSach.cs" />
+    <Compile Include="TaiKhoan\TaiKhoan.cs" />
     <Compile Include="Themecolor.cs" />
+    <EmbeddedResource Include="Forms\FormAccept.resx">
+      <DependentUpon>FormAccept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBracelet.resx">
+      <DependentUpon>FormBracelet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormCustomer.resx">
       <DependentUpon>FormCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,17 +155,29 @@
     <EmbeddedResource Include="Formmenu.resx">
       <DependentUpon>Formmenu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEarrings.resx">
+      <DependentUpon>FormEarrings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNecklace.resx">
+      <DependentUpon>FormNecklace.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormProduct.resx">
       <DependentUpon>FormProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormProInfor.resx">
+      <DependentUpon>FormProInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormRing.resx">
+      <DependentUpon>FormRing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Formsetting.resx">
       <DependentUpon>Formsetting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FormStore.resx">
-      <DependentUpon>FormStore.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormVoucher.resx">
       <DependentUpon>FormVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWatch.resx">
+      <DependentUpon>FormWatch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -200,6 +258,114 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cus1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gndrwa46447.501-nhan-kim-cuong-pnj-vang-trang-14k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gndrwa60919.501-nhan-kim-cuong-pnj-vang-trang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gndrwa63880.500-nhan-kim-cuong-pnj-vang-trang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gndrwa81442.518-nhan-kim-cuong-pnj-vang-trang-14k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %283%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th %285%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbddddh000015-bong-tai-kim-cuong-vang-18k-pnj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbddddw000220-bong-tai-kim-cuong-vang-trang-14k-pnj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbddddw060155-bong-tai-kim-cuong-vang-trang-18k-pnj-hinh-giot-nuoc-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbdrwa72039.5a2-bong-tai-kim-cuong-pnj-vang-trang-14k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbdrwa77666.5a0-bong-tai-kim-cuong-pnj-vang-trang-14k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gbdrwa83478.5a1-bong-tai-kim-cuong-pnj-vang-trang-14k-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vongtay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gv00ddw000227-vo-vong-tay-kim-cuong-vang-trang-18k-pnj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gvddddc000001-vong-tay-kim-cuong-vang-18k-pnj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gvddddw060048-nhan-kim-cuong-vang-trang-14k-pnj-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gvdrwa77482.514-vong-tay-kim-cuong-pnj-vang-trang-14k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gvdrwa89488.5a1-vong-tay-kim-cuong-pnj-vang-trang-14k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmdd00w000136-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmddddc000039-mat-day-chuyen-vang-14k-dinh-kim-cuong-pnj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmddddh000014-mat-day-chuyen-kim-cuong-nau-vang-18k-pnj-hinh-trai-tim-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmddddh000046-mat-day-chuyen-kim-cuong-vang-14k-pnj-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmddddw001101-mat-day-chuyen-kim-cuong-vang-trang-14k-pnj__1_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gmddddw060124-mat-day-chuyen-kim-cuong-vang-trang-18k-pnj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kiệt Tác_địa chỉ độ kim cương cho đồng hồ nữ cực uy tín, chuyên nghiệp hiện nay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_che-tac-gan-full-kim-cuong-dong-ho-santos-de-cartier-164048100622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_section_franck-muller-163231060422.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service_dich-vu-dinh-kim-cuong-dong-ho-cartier-085601130722.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service_dich-vu-dinh-kim-cuong-dong-ho-citizen-084449290722.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service_dich-vu-dinh-kim-cuong-dong-ho-nam-093614100722.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

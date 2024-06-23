@@ -1,4 +1,5 @@
-﻿using System;
+﻿using main.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,11 @@ namespace main
         public FormSetting()
         {
             InitializeComponent();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new FormAccept().Show();
         }
     }
 }
