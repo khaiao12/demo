@@ -493,6 +493,36 @@ namespace main.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_06_26_185816 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-06-26 185816", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_06_26_190051 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-06-26 190051", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2024_06_26_190158 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2024-06-26 190158", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap service_dich_vu_dinh_kim_cuong_dong_ho_cartier_085601130722 {
             get {
                 object obj = ResourceManager.GetObject("service_dich-vu-dinh-kim-cuong-dong-ho-cartier-085601130722", resourceCulture);
@@ -636,6 +666,16 @@ namespace main.Properties {
         internal static System.Drawing.Bitmap th__5_ {
             get {
                 object obj = ResourceManager.GetObject("th (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thong_tin_chung_trong_giay_chung_nhan_kim_cuong {
+            get {
+                object obj = ResourceManager.GetObject("thong-tin-chung-trong-giay-chung-nhan-kim-cuong", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

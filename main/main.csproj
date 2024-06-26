@@ -427,5 +427,17 @@
   <ItemGroup>
     <None Include="Resources\Screenshot 2024-06-24 071425.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-26 185816.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-26 190051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-26 190158.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thong-tin-chung-trong-giay-chung-nhan-kim-cuong.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
