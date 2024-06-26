@@ -43,3 +43,7 @@ D:\tải\main\main\bin\Debug\main.exe.config
 D:\tải\main\main\bin\Debug\main.exe
 D:\tải\main\main\bin\Debug\main.pdb
 D:\tải\main\main\obj\Debug\main.Forms.FormProInfor.resources
+D:\tải\main\main\obj\Debug\main.Forms.FormBangGiaKCNT.resources
+D:\tải\main\main\obj\Debug\main.Forms.FormBangGiaKCTN.resources
+D:\tải\main\main\obj\Debug\main.Forms.FormBaoHanh.resources
+D:\tải\main\main\obj\Debug\main.Forms.FormChungNhan.resources

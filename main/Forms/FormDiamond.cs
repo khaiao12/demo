@@ -1,4 +1,5 @@
-﻿using System;
+﻿using main.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,5 +18,14 @@ namespace main
             InitializeComponent();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new FormBangGiaKCNT().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            new FormBangGiaKCTN().Show();
+        }
     }
 }

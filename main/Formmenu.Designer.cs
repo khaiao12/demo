@@ -41,6 +41,9 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktop = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnPower)).BeginInit();
             this.panelLogo.SuspendLayout();
@@ -219,6 +222,9 @@
             // 
             // panelDesktop
             // 
+            this.panelDesktop.Controls.Add(this.label3);
+            this.panelDesktop.Controls.Add(this.label2);
+            this.panelDesktop.Controls.Add(this.label1);
             this.panelDesktop.Controls.Add(this.pictureBox1);
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDesktop.Location = new System.Drawing.Point(186, 76);
@@ -230,12 +236,42 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = global::main.Properties.Resources.th__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(348, 60);
+            this.pictureBox1.Location = new System.Drawing.Point(408, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(377, 338);
+            this.pictureBox1.Size = new System.Drawing.Size(242, 213);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(184, 217);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(363, 23);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Cửa hàng kim cương XXXXXXXXXX";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(184, 251);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(363, 23);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Địa chỉ: XXXXXX";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(184, 288);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(363, 23);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Số điện thoại liên hệ: XXXXXXXXXXX";
             // 
             // Formmenu
             // 
@@ -275,6 +311,9 @@
         private System.Windows.Forms.Panel panelDesktop;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnHome;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
     }
 }
 

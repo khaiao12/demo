@@ -22,5 +22,15 @@ namespace main
         {
             new FormAccept().Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new FormBaoHanh().Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new FormChungNhan().Show();
+        }
     }
 }

@@ -52,11 +52,35 @@
     <Compile Include="Forms\FormAccept.Designer.cs">
       <DependentUpon>FormAccept.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormBangGiaKCNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBangGiaKCNT.Designer.cs">
+      <DependentUpon>FormBangGiaKCNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBangGiaKCTN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBangGiaKCTN.Designer.cs">
+      <DependentUpon>FormBangGiaKCTN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBaoHanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBaoHanh.Designer.cs">
+      <DependentUpon>FormBaoHanh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormBracelet.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormBracelet.Designer.cs">
       <DependentUpon>FormBracelet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormChungNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormChungNhan.Designer.cs">
+      <DependentUpon>FormChungNhan.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormCustomer.cs">
       <SubType>Form</SubType>
@@ -140,8 +164,20 @@
     <EmbeddedResource Include="Forms\FormAccept.resx">
       <DependentUpon>FormAccept.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBangGiaKCNT.resx">
+      <DependentUpon>FormBangGiaKCNT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBangGiaKCTN.resx">
+      <DependentUpon>FormBangGiaKCTN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBaoHanh.resx">
+      <DependentUpon>FormBaoHanh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormBracelet.resx">
       <DependentUpon>FormBracelet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormChungNhan.resx">
+      <DependentUpon>FormChungNhan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormCustomer.resx">
       <DependentUpon>FormCustomer.cs</DependentUpon>
@@ -366,6 +402,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\service_dich-vu-dinh-kim-cuong-dong-ho-nam-093614100722.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-23 232925.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-23 233242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-23 233701.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-23 234125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-24 064502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-24 070229.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-24 071417.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2024-06-24 071425.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
