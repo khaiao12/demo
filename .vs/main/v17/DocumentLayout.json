@@ -3,19 +3,35 @@
   "WorkspaceRootPath": "D:\\t\u1EA3i\\main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formchungnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formchungnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|d:\\t\u1EA3i\\main\\main\\forms\\formproinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formproinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formbaohanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formbaohanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|d:\\t\u1EA3i\\main\\main\\forms\\formproinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formproinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|d:\\t\u1EA3i\\main\\main\\forms\\formdiamond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formbaohanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formbaohanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|d:\\t\u1EA3i\\main\\main\\sanpham\\danhsachsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\sanpham\\danhsachsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formchungnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formchungnhan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|d:\\t\u1EA3i\\main\\main\\forms\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formdiamond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formdiamond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -37,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|solutionrelative:main\\forms\\formcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AA0D3FD-88C1-4BD8-9282-664A8D729994}|main\\main.csproj|D:\\t\u1EA3i\\main\\main\\forms\\formproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -74,22 +86,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormBangGiaKCNT.cs [Design]",
-              "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormBangGiaKCNT.cs",
-              "RelativeDocumentMoniker": "main\\Forms\\FormBangGiaKCNT.cs",
-              "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\FormBangGiaKCNT.cs [Design]",
-              "RelativeToolTip": "main\\Forms\\FormBangGiaKCNT.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "FormProInfor.cs",
+              "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormProInfor.cs",
+              "RelativeDocumentMoniker": "main\\Forms\\FormProInfor.cs",
+              "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\FormProInfor.cs",
+              "RelativeToolTip": "main\\Forms\\FormProInfor.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAYwEoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T00:07:40.683Z"
+              "WhenOpened": "2024-06-26T12:41:39.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "FormProInfor.cs [Design]",
+              "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormProInfor.cs",
+              "RelativeDocumentMoniker": "main\\Forms\\FormProInfor.cs",
+              "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\FormProInfor.cs [Design]",
+              "RelativeToolTip": "main\\Forms\\FormProInfor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T12:41:34.699Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DanhSachSanPham.cs",
+              "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\SanPham\\DanhSachSanPham.cs",
+              "RelativeDocumentMoniker": "main\\SanPham\\DanhSachSanPham.cs",
+              "ToolTip": "D:\\t\u1EA3i\\main\\main\\SanPham\\DanhSachSanPham.cs",
+              "RelativeToolTip": "main\\SanPham\\DanhSachSanPham.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAACMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T12:35:42.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FormChungNhan.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormChungNhan.cs",
               "RelativeDocumentMoniker": "main\\Forms\\FormChungNhan.cs",
@@ -107,14 +146,14 @@
               "RelativeDocumentMoniker": "main\\Forms\\Formsetting.cs",
               "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\Formsetting.cs",
               "RelativeToolTip": "main\\Forms\\Formsetting.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAUwCAAAAAnAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvyAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-23T23:32:37.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FormBaoHanh.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormBaoHanh.cs",
               "RelativeDocumentMoniker": "main\\Forms\\FormBaoHanh.cs",
@@ -126,19 +165,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "FormDiamond.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormDiamond.cs",
               "RelativeDocumentMoniker": "main\\Forms\\FormDiamond.cs",
               "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\FormDiamond.cs [Design]",
               "RelativeToolTip": "main\\Forms\\FormDiamond.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:17:56.176Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-23T16:17:56.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "FormDiamond.cs",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormDiamond.cs",
               "RelativeDocumentMoniker": "main\\Forms\\FormDiamond.cs",
@@ -146,12 +184,34 @@
               "RelativeToolTip": "main\\Forms\\FormDiamond.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAgwBEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T16:45:55.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-23T16:45:55.647Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "FormCustomer.cs [Design]",
+              "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormCustomer.cs",
+              "RelativeDocumentMoniker": "main\\Forms\\FormCustomer.cs",
+              "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\FormCustomer.cs [Design]",
+              "RelativeToolTip": "main\\Forms\\FormCustomer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T23:09:12.045Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormBangGiaKCNT.cs [Design]",
+              "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormBangGiaKCNT.cs",
+              "RelativeDocumentMoniker": "main\\Forms\\FormBangGiaKCNT.cs",
+              "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\FormBangGiaKCNT.cs [Design]",
+              "RelativeToolTip": "main\\Forms\\FormBangGiaKCNT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T00:07:40.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FormBangGiaKCTN.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormBangGiaKCTN.cs",
               "RelativeDocumentMoniker": "main\\Forms\\FormBangGiaKCTN.cs",
@@ -162,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "FormLogin.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\FormLogin.cs",
               "RelativeDocumentMoniker": "main\\FormLogin.cs",
@@ -173,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Formsetting.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\Formsetting.cs",
               "RelativeDocumentMoniker": "main\\Forms\\Formsetting.cs",
@@ -185,18 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormCustomer.cs [Design]",
-              "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormCustomer.cs",
-              "RelativeDocumentMoniker": "main\\Forms\\FormCustomer.cs",
-              "ToolTip": "D:\\t\u1EA3i\\main\\main\\Forms\\FormCustomer.cs [Design]",
-              "RelativeToolTip": "main\\Forms\\FormCustomer.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-23T23:09:12.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Formmenu.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Formmenu.cs",
               "RelativeDocumentMoniker": "main\\Formmenu.cs",
@@ -207,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "FormProduct.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormProduct.cs",
               "RelativeDocumentMoniker": "main\\Forms\\FormProduct.cs",
@@ -218,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "FormVoucher.cs [Design]",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Forms\\FormVoucher.cs",
               "RelativeDocumentMoniker": "main\\Forms\\FormVoucher.cs",
@@ -229,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "TaiKhoan.cs",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\TaiKhoan\\TaiKhoan.cs",
               "RelativeDocumentMoniker": "main\\TaiKhoan\\TaiKhoan.cs",
@@ -241,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Formmenu.cs",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Formmenu.cs",
               "RelativeDocumentMoniker": "main\\Formmenu.cs",
@@ -253,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\t\u1EA3i\\main\\main\\Program.cs",
               "RelativeDocumentMoniker": "main\\Program.cs",

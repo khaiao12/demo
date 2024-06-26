@@ -32,6 +32,7 @@ namespace main.Forms
                     lblMaindia.Text = listSanPham[i].Kimcuongchinh;
                     lblSidedia.Text = listSanPham[i].Kimcuongphu;
                     lblDiaCover.Text = listSanPham[i].Vokimcuong;
+                    lblName.Text = listSanPham[i].ProductName;
                     ID = FormRing.ID;
                     FormRing.ID = null;
                 }
@@ -41,6 +42,7 @@ namespace main.Forms
                     lblMaindia.Text = listSanPham[i].Kimcuongchinh;
                     lblSidedia.Text = listSanPham[i].Kimcuongphu;
                     lblDiaCover.Text = listSanPham[i].Vokimcuong;
+                    lblName.Text = listSanPham[i].ProductName;
                     ID = FormBracelet.ID;
                     FormBracelet.ID = null;
                 }
@@ -50,6 +52,7 @@ namespace main.Forms
                     lblMaindia.Text = listSanPham[i].Kimcuongchinh;
                     lblSidedia.Text = listSanPham[i].Kimcuongphu;
                     lblDiaCover.Text = listSanPham[i].Vokimcuong;
+                    lblName.Text = listSanPham[i].ProductName;
                     ID = FormBracelet.ID;
                     FormNecklace.ID = null;
                 }
@@ -59,6 +62,7 @@ namespace main.Forms
                     lblMaindia.Text = listSanPham[i].Kimcuongchinh;
                     lblSidedia.Text = listSanPham[i].Kimcuongphu;
                     lblDiaCover.Text = listSanPham[i].Vokimcuong;
+                    lblName.Text = listSanPham[i].ProductName;
                     ID = FormEarrings.ID;
                     FormEarrings.ID = null;
                 }
@@ -68,6 +72,7 @@ namespace main.Forms
                     lblMaindia.Text = listSanPham[i].Kimcuongchinh;
                     lblSidedia.Text = listSanPham[i].Kimcuongphu;
                     lblDiaCover.Text = listSanPham[i].Vokimcuong;
+                    lblName.Text = listSanPham[i].ProductName;
                     ID = FormWatch.ID;
                     FormWatch.ID = null;
                 }
