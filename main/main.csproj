@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormCusInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCusInfor.Designer.cs">
+      <DependentUpon>FormCusInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDiaPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDiaPrice.Designer.cs">
+      <DependentUpon>FormDiaPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenuAdmin.Designer.cs">
+      <DependentUpon>FormMenuAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductInfor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductInfor.Designer.cs">
+      <DependentUpon>FormProductInfor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formstaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formstaff.Designer.cs">
+      <DependentUpon>Formstaff.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormAccept.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,6 +191,21 @@
     <Compile Include="TaiKhoan\DanhSach.cs" />
     <Compile Include="TaiKhoan\TaiKhoan.cs" />
     <Compile Include="Themecolor.cs" />
+    <EmbeddedResource Include="FormCusInfor.resx">
+      <DependentUpon>FormCusInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDiaPrice.resx">
+      <DependentUpon>FormDiaPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenuAdmin.resx">
+      <DependentUpon>FormMenuAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductInfor.resx">
+      <DependentUpon>FormProductInfor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formstaff.resx">
+      <DependentUpon>Formstaff.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormAccept.resx">
       <DependentUpon>FormAccept.cs</DependentUpon>
     </EmbeddedResource>

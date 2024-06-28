@@ -40,10 +40,10 @@
             this.panelTitle = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
             this.panelDesktop = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnPower)).BeginInit();
             this.panelLogo.SuspendLayout();
@@ -222,6 +222,7 @@
             // 
             // panelDesktop
             // 
+            this.panelDesktop.AutoScroll = true;
             this.panelDesktop.Controls.Add(this.label3);
             this.panelDesktop.Controls.Add(this.label2);
             this.panelDesktop.Controls.Add(this.label1);
@@ -232,26 +233,15 @@
             this.panelDesktop.Size = new System.Drawing.Size(1046, 478);
             this.panelDesktop.TabIndex = 2;
             // 
-            // pictureBox1
+            // label3
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = global::main.Properties.Resources.th__1_;
-            this.pictureBox1.Location = new System.Drawing.Point(408, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(242, 213);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(184, 217);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(363, 23);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Cửa hàng kim cương XXXXXXXXXX";
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(184, 288);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(363, 23);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Số điện thoại liên hệ: XXXXXXXXXXX";
             // 
             // label2
             // 
@@ -263,15 +253,26 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Địa chỉ: XXXXXX";
             // 
-            // label3
+            // label1
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(184, 288);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(363, 23);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Số điện thoại liên hệ: XXXXXXXXXXX";
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(184, 217);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(363, 23);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Cửa hàng kim cương XXXXXXXXXX";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.Image = global::main.Properties.Resources.th__1_;
+            this.pictureBox1.Location = new System.Drawing.Point(408, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(242, 213);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // Formmenu
             // 

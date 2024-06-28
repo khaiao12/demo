@@ -29,21 +29,21 @@
         private void InitializeComponent()
         {
             this.panelInformation = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelInformation.SuspendLayout();
@@ -78,6 +78,16 @@
             this.panelInformation.Size = new System.Drawing.Size(913, 257);
             this.panelInformation.TabIndex = 6;
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::main.Properties.Resources.Screenshot_2024_06_23_234125;
+            this.pictureBox7.Location = new System.Drawing.Point(12, 994);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(821, 285);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 13;
+            this.pictureBox7.TabStop = false;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -87,6 +97,16 @@
             this.label10.Size = new System.Drawing.Size(394, 18);
             this.label10.TabIndex = 12;
             this.label10.Text = "Kim Cương có độ tinh khiết càng gần FL thì giá trị càng cao";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::main.Properties.Resources.Screenshot_2024_06_23_233701;
+            this.pictureBox6.Location = new System.Drawing.Point(12, 700);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(821, 221);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 11;
+            this.pictureBox6.TabStop = false;
             // 
             // label2
             // 
@@ -128,6 +148,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Tư vấn chọn mua kim cương";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::main.Properties.Resources.Screenshot_2024_06_23_233242;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 425);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(821, 205);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -168,58 +198,6 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Kim cương có giá trị càng gần Excellent thì giá trị càng cao";
             // 
-            // button1
-            // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.Location = new System.Drawing.Point(173, 176);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 34);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Bảng giá kim cương tự nhiên";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.Location = new System.Drawing.Point(541, 176);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(191, 34);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Bảng giá kim cương nhân tạo";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::main.Properties.Resources.Screenshot_2024_06_23_234125;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 994);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(821, 285);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 13;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::main.Properties.Resources.Screenshot_2024_06_23_233701;
-            this.pictureBox6.Location = new System.Drawing.Point(12, 700);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(821, 221);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 11;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::main.Properties.Resources.Screenshot_2024_06_23_233242;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 425);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(821, 205);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::main.Properties.Resources.Screenshot_2024_06_23_232925;
@@ -229,6 +207,28 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.Location = new System.Drawing.Point(157, 176);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(219, 34);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "Bảng giá kim cương tự nhiên";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.Location = new System.Drawing.Point(530, 176);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(219, 34);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Bảng giá kim cương nhân tạo";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox2
             // 

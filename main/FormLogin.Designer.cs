@@ -38,6 +38,7 @@
             this.panelPass = new System.Windows.Forms.Panel();
             this.lblExit = new System.Windows.Forms.Label();
             this.lblClear = new System.Windows.Forms.Label();
+            this.chkAdmin = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,12 +144,23 @@
             this.lblClear.Text = "Clear";
             this.lblClear.Click += new System.EventHandler(this.lblClear_Click);
             // 
+            // chkAdmin
+            // 
+            this.chkAdmin.AutoSize = true;
+            this.chkAdmin.Location = new System.Drawing.Point(86, 317);
+            this.chkAdmin.Name = "chkAdmin";
+            this.chkAdmin.Size = new System.Drawing.Size(67, 20);
+            this.chkAdmin.TabIndex = 11;
+            this.chkAdmin.Text = "Admin";
+            this.chkAdmin.UseVisualStyleBackColor = true;
+            // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(427, 498);
             this.ControlBox = false;
+            this.Controls.Add(this.chkAdmin);
             this.Controls.Add(this.lblClear);
             this.Controls.Add(this.lblExit);
             this.Controls.Add(this.panelPass);
@@ -180,5 +192,6 @@
         private System.Windows.Forms.Panel panelPass;
         private System.Windows.Forms.Label lblExit;
         private System.Windows.Forms.Label lblClear;
+        private System.Windows.Forms.CheckBox chkAdmin;
     }
 }

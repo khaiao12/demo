@@ -47,3 +47,8 @@ D:\tải\main\main\obj\Debug\main.Forms.FormBangGiaKCNT.resources
 D:\tải\main\main\obj\Debug\main.Forms.FormBangGiaKCTN.resources
 D:\tải\main\main\obj\Debug\main.Forms.FormBaoHanh.resources
 D:\tải\main\main\obj\Debug\main.Forms.FormChungNhan.resources
+D:\tải\main\main\obj\Debug\main.FormMenuAdmin.resources
+D:\tải\main\main\obj\Debug\main.Formstaff.resources
+D:\tải\main\main\obj\Debug\main.FormCusInfor.resources
+D:\tải\main\main\obj\Debug\main.FormDiaPrice.resources
+D:\tải\main\main\obj\Debug\main.FormProductInfor.resources

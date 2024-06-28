@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,7 @@ namespace main
     public partial class FormLogin : Form
     {
         List<TaiKhoan> listTaiKhoan = DanhSach.Instance.ListTaiKhoan;
+        List<TaiKhoan> admin = DanhSach.Instance.ListAdmin;
         public static string TK;
         public FormLogin()
         {
@@ -22,8 +24,13 @@ namespace main
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (loginCheck(txtUsername.Text, txtPassword.Text))
+            {                
+                new Formmenu().Show();                
+                this.Hide();
+            }
+            else if (adminCheck(txtUsername.Text,txtPassword.Text) && chkAdmin.CheckState == CheckState.Checked)
             {
-                new Formmenu().Show();
+                new FormMenuAdmin().Show();
                 this.Hide();
             }
             else
@@ -43,6 +50,18 @@ namespace main
                 if (txtUsername.Text == listTaiKhoan[i].UserName && txtPassword.Text == listTaiKhoan[i].Password)
                 {
                     TK = listTaiKhoan [i].UserName;
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        bool adminCheck(string username, string password)
+        {
+            for (int i = 0; i < admin.Count; i++)
+            {
+                if (txtUsername.Text == admin[i].UserName && txtPassword.Text == admin[i].Password)
+                {
                     return true;
                 }
             }
