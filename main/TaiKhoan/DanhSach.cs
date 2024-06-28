@@ -37,7 +37,7 @@ namespace main
         DanhSach()
         {
             listTaiKhoan = new List<TaiKhoan>();
-            listTaiKhoan.Add(new TaiKhoan("Demo", "4321", 50000000));
+            listTaiKhoan.Add(new TaiKhoan("Demo", "4321", 59123131));
             listTaiKhoan.Add(new TaiKhoan("Demo1", "1212", 12698232));
             listTaiKhoan.Add(new TaiKhoan("Demo2", "1111", 3212313));
             listTaiKhoan.Add(new TaiKhoan("Demo3", "1234", 2131));

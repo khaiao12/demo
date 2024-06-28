@@ -484,5 +484,8 @@
   <ItemGroup>
     <None Include="Resources\thong-tin-chung-trong-giay-chung-nhan-kim-cuong.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cus2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

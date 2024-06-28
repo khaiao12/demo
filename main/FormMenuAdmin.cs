@@ -1,4 +1,5 @@
-﻿using System;
+﻿using main.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -125,6 +126,11 @@ namespace main
                 activeForm.Close();
             }
             reset();
+        }
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            new FormAccept().Show();
         }
     }
 }
